@@ -19,7 +19,7 @@ fi
  
 # Build the solution
 echo "Building the solution, please wait..."
-gcc -o randomarray RandomArray.c -lssl -lcrypto
+gcc -o randomarray RandomArray/randomarray.c -lssl -lcrypto
 if [ $? -ne 0 ]; then
     echo "Build failed. Please check the solution for errors."
     exit 1
