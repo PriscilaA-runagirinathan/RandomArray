@@ -1,5 +1,4 @@
 Prerequisites
-
 ----------------------------------------
 
 Unix-like Systems (Linux/macOS)
@@ -11,7 +10,6 @@ gcc: A C compiler (such as MinGW) must be installed.
 OpenSSL: The OpenSSL library and development headers must be installed.
 
 Files Included
-
 ----------------------------------------
 
 build.sh: Shell script for Unix-like systems.
@@ -37,5 +35,5 @@ This will look for MSBuild path and if found would create the .exe
 Then this will run to generate the random array followed by the sorted array. 
 
 References
-
+------------------------------------------
 https://docs.openssl.org/1.1.1/man3/RAND_bytes/
