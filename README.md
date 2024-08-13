@@ -1,6 +1,6 @@
 Prerequisites
 
-===================================
+----------------------------------------
 
 Unix-like Systems (Linux/macOS)
 gcc: A C compiler must be installed.
@@ -12,14 +12,14 @@ OpenSSL: The OpenSSL library and development headers must be installed.
 
 Files Included
 
-======================================
+----------------------------------------
 
 build.sh: Shell script for Unix-like systems.
 build.bat: Batch script for Windows.
 
 Usage
+----------------------------------------
 
-=====================================
 Unix-like Systems (Linux/macOS)
 Open a terminal and navigate to the project directory.
 Make the script executable (if necessary):
